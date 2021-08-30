@@ -1,0 +1,43 @@
+
+
+
+@media(min-width: 720px){
+
+    .banner-head{
+        padding-top:50px;
+        margin-top: 0px;
+        background:  url("../../../assets/background.png");
+        background-size:cover;
+        min-height: 100vh;
+    }
+    .mat-group{
+        padding-left: 3%;
+        padding-top: 2%;
+        
+       
+    }
+    
+    ::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label{
+        color: var(--azul-color);
+        font-weight: 500;
+        font-size: 1.1rem;
+
+    }
+    .card {
+        margin-top: 2%;
+        max-width: 55vh;
+        background-color: #fff;
+        color: var(--azul-color);
+        margin: 1%;
+        
+      }
+      
+      .example-header-image {
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+      }
+    
+   
+    
+    
+}
